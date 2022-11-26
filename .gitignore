@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+/packages/**/node_modules
+
+# production
+/build
+/packages/**/build
+/dist
+/packages/**/dist
+
+# Editor directories and files
+.idea
+/**/.DS_Store

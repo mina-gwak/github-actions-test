@@ -1,0 +1,26 @@
+{
+  "name": "@action-test/practice-actions",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "mina-gwak <mina.gwak@kakao.com>",
+  "homepage": "https://github.com/mina-gwak/github-actions-test#readme",
+  "license": "ISC",
+  "main": "lib/practice-actions.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mina-gwak/github-actions-test.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/practice-actions.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mina-gwak/github-actions-test/issues"
+  }
+}

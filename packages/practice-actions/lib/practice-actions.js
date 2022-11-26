@@ -3,5 +3,5 @@
 module.exports = practiceActions;
 
 function practiceActions() {
-    return "Hello from practiceActions";
+    return "Hi from practiceActions";
 }

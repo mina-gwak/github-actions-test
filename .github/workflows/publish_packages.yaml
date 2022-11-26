@@ -42,8 +42,5 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
-      - name: Install Dependencies
-        run: yarn install --frozen-lockfile
-
       - name: Publish
         run: npx lerna publish ${{ inputs.version }} --yes
